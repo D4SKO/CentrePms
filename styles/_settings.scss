@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+$jaune:#f6dd3a;
+$rouge:#FF5964;
+$bleu:#35A7FF;
+
+*, ::after, ::before{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+h1, .titre{
+    font-size: clamp(18px, 1.5vw, 25px);
+    font-family: 'Secular One', sans-serif;
+}
+p.titre{
+    font-size: clamp(18px, 1.5vw, 25px);
+    font-family: 'Secular One', sans-serif;
+}
+a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Secular One', sans-serif;
+}
+p{
+    font-family: 'Secular One', sans-serif;
+    font-size: clamp(13px, 1vw, 16px);
+}

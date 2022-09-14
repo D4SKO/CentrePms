@@ -1,0 +1,86 @@
+footer{
+    width: 100%;
+    height: 35vh;
+    background-color: #A3BCCF;
+    margin-top: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .center{
+        width: 90%;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .topside{
+            width: 90%;
+            margin: auto;
+            height: 45%;
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 2px solid black;
+            .leftside{
+                width: 20%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                img{
+                    width: 80%;
+                    height: 60%;
+                    object-fit: contain;
+                }
+            }
+            .rightside{
+                width: 30%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                ul{
+                    display: flex;
+                    width: 60%;
+                    height: auto;
+                    justify-content: space-between;
+                    li{
+                        list-style-type: none;
+                        a{
+                            font-size: 0.8vw;
+                        }
+                    }
+                }
+            }
+        }
+        .bottomside{
+            width: 90%;
+            margin: auto;
+            height: 35%;
+            display: flex;
+            justify-content: space-between;
+            .leftside{
+                width: 20%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .icone{
+                    width: 50%;
+                    height: 90%;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    i{
+                        font-size: 2vw;
+                    }
+                }
+            }
+            .rightside{
+                width: 25%;
+                height: 100%;
+                p{
+                    font-size: 0.8vw;
+                }
+            }
+        }
+    }
+}
