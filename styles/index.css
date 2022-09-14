@@ -6,6 +6,10 @@
   margin: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   width: 100vw;
   height: 100vh;
@@ -568,9 +572,9 @@ p {
     text-align: center;
   }
   .home .first_contain .top_side i {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
     font-size: 10vw;
     position: absolute;
     bottom: 5vh;
