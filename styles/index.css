@@ -93,7 +93,7 @@ p {
 }
 
 .home .first_contain .top_side i {
-  display: none;
+  display: none !important;
 }
 
 .home .first_contain .top_side .info {
@@ -719,6 +719,9 @@ p {
     width: 100%;
     position: relative;
     margin-top: 15px;
+  }
+  .team .contain_card .card p.titre {
+    color: black !important;
   }
   .team .contain_card .card .bande {
     position: absolute;

@@ -35,7 +35,7 @@
             align-items: center;
             padding-top: 5vh;
             i{
-                display: none;
+                display: none!important;
             }
             .info{
                 width: 45%;
@@ -455,6 +455,9 @@
                 width: 100%;
                 position: relative;
                 margin-top: 15px;
+                p.titre{
+                    color: black!important;
+                }
                 .bande{
                     position: absolute;
                     width: 100%;

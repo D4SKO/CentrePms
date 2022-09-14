@@ -22,5 +22,4 @@ var controller = new ScrollMagic.Controller();
 // build scenes
 new ScrollMagic.Scene({triggerElement: "#team"})
                 .setClassToggle("#team", "active") // add class toggle
-                .addIndicators() // add indicators (requires plugin)
                 .addTo(controller);
